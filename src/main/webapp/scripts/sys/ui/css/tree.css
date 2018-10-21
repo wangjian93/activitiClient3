@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+.tree_panel {background: #fff;position: absolute;-webkit-user-select: none;}
+
+.tree_panel .left {position: absolute;width: 45%;height: 319px;_height: 315px;border: 1px solid #4E86C4;left: 0;top: 0;-webkit-user-select: none;}
+
+.tree_panel .center {position: absolute;width: 5%;height: 319px;left: 45%;text-align: center;}
+
+.tree_panel .right {position: absolute;width: 50%;height: 318px;border: 1px solid #4E86C4;right: 0;top: 0;}
+
+.tree_panel .center .center_arrow {margin-top: 150px;}
+
+.tree_panel .left .search {border-bottom: 1px solid #CCCCCC;height: 12%;}
+
+.tree_panel .left .search .search_panel {padding-left: 10px;padding-top: 9px;}
+
+.tree_panel .left .search .search_panel input {border-right: medium none;border-bottom: 1px solid #C3C3C3;border-top: 1px solid #7C7C7C;background: url("images/today087169.gif") repeat-x scroll 0 -162px #FFFFFF;border-left: 1px solid #9A9A9A;width: 180px;height: 12px;height: 12px\9;_height: 18px;_line-height: 1.5;}
+
+.tree_panel .left .search .search_panel a {background: url("images/compose0b1454.png") no-repeat scroll 0 -16px transparent;border: medium none;height: 20px;width: 20px;position: absolute;+margin-top: 1px;}
+
+.tree_panel .left .ztree_panel {width: 100%;height: 87.8%;overflow: auto;}
+
+.tree_panel .result_panel {width: 100%;height: 100%;overflow: auto;}
+
+.tree_panel .result_panel a {padding: 4px 8px;color: #494949;cursor: pointer;display: block;height: 20px;line-height: 20px;overflow: hidden;text-align: left;text-decoration: none;width: auto;}
+
+.tree_panel .result_panel a:HOVER {background: none repeat scroll 0 0 #FFEEC2;}
+
+.tree_panel .result_panel input {background: url("images/mov.gif") no-repeat scroll 0 0 transparent;border: medium none;float: right;margin-top: 2px;width: 16px;height: 16px;}
+
+.tree_panel .tree_comment {width: 100%;position: absolute;top: 322px;}
+
+.tree_panel .tree_comment label {font-size: 14px;font-weight: bold;display:block;}
+
+.tree_panel .tree_comment textarea {overflow: auto;width: 98.8%;_width: 99.5%;height: 88px;+height: 84px;height: 85px\9;_height: 90px;border: 1px solid #4E86C4;}

@@ -1,0 +1,264 @@
+@CHARSET "UTF-8";
+
+textarea[readonly],input[readonly]{background-color:transparent;}
+
+textarea[readonly]:focus,input[readonly]:focus{border:1px solid #D0D0D0}
+
+input[type=text],input[type=password],textarea{border:1px solid #D0D0D0;padding:3px}
+
+select{height:22px;border:1px solid #D0D0D0;}
+input[type=radio]{height:20px;}
+
+input:focus,textarea:focus,select:focus { border:1px solid #1177a7;}
+
+/* menu begin */  
+.menubj{width:100%;height:40px;}
+.menubj-fixed{position:fixed;background-color:#f1f1f1;
+box-shadow:0 0 6px #cccccc, inset 0 0 2px #ffffff;width:100%;height:40px;}
+
+.menu{width:960px;margin:0 auto;z-index:50;}
+
+.menu-fixed{position:fixed;margin:0px;}
+
+.menu a div{padding:11px 8px 13px 32px;height:16px;color:#333333;}
+
+.menu a{float:left;font-size:14px;letter-spacing:2px;}
+	
+.menu a:hover{background-color:#cccccc;cursor:pointer;}
+/* menu end */
+
+/* 返回顶部 begin */
+.back-to {bottom: 25px;position: fixed;right: 25px;}
+
+.back-to a {background: url("../images/order/backtotop.gif") no-repeat center  center #444444;border-radius: 4px 4px 4px 4px;display: block;float: left;height: 50px;width: 50px;}
+
+.back-to a:hover {background-color: #222222;}
+/* 返回顶部 end */
+
+
+.main{width:960px;margin:0 auto;padding-top:20px;}
+
+.main textarea{margin:1px 0;}
+
+.main .selectInput {background: #FFFCC8;cursor: pointer;width:88%;}
+
+.main .imgButton {float:left;background: url(../images/order/attachment.png) no-repeat scroll 0 0;width: 16px;height: 16px;border: medium none;}
+
+.main .delImgButton {float:right;background: url(../images/order/btnDelete__b.gif) no-repeat scroll 0 0;width: 16px;height: 16px;position: relative;right:8px;border: medium none;}
+
+.title {background:#f1f1f1 url("../images/order/title.png") no-repeat 14px center;
+padding:6px 58px;letter-spacing:3px;color: #444444;margin:0px 0px 5px 0px;
+text-shadow:2px 2px 0 #fff;box-shadow:0 0 6px #cccccc, inset 0 0 2px #ffffff;
+font-size:24px;font-family: "MicroSoft YaHei", Tahoma, Arial, sans-serif;}
+
+.table {width: 100%;}
+
+.table td {height: 26px;padding: 0px;}
+
+.table textarea {width: 691px;}
+
+.table input[type=text] {width: 220px;}
+
+.out {padding-top: 10px;width:100%;height:auto;}
+
+.attachiecc{padding-top:0px; width:80px; height:auto; text-align:right;}
+
+.head{border-bottom: solid 3px #1177a7; width:960px; height:26px;vertical-align:bottom;}
+
+.head span{float: left;background: #1177a7;color: #FFFFFF;padding:6px 10px 4px 10px;border-radius:2px 2px 0px 0px; height:16px;}
+
+.in {background: #f1f1f1;box-shadow: 0 0 6px #cccccc, inset 0 0 2px #ffffff;padding: 6px;}
+
+.label {width: 168px;text-align: right;}
+
+.detail input {width:90%;}
+
+.detail {width:948px;}
+
+/*record begin*/
+.Header_Text {color: white;background-color: #999;white-space: nowrap;
+	border-left: 1px solid #fff;border-top: 1px solid #ccc;border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;text-align: center;height:24px;font-size:12px;}
+
+.record {width: 100%;table-layout: fixed;}
+
+.record td{padding:2px 0 4px 0;}
+
+.record th,.record tr,.record td {border: 1px solid #FFFFFF;text-align: center;}
+/*record end*/
+
+/* attach begin  */
+.upload {height:30px;float:right;width:10%;margin: 0 auto;text-align:right;margin-top:-10px;}
+
+.upload a {background: url("../images/order/btnAddRow__b.gif") no-repeat scroll 0 0 transparent;
+float:left;width:16px;height:16px;}
+
+.upload a:hover {background: url("../images/order/btnAddRow__c.gif") no-repeat scroll 0 0 transparent;
+float:left;}
+
+.upload1 {height:30px;float:right;width:12%;margin: 0 auto;text-align:right;margin-top:-10px;}
+
+.upload1 a {background: url("../images/order/btnAttach__c.gif") no-repeat scroll 0 0 transparent;
+float:left;width:16px;height:16px;}
+
+.upload1 a:hover {background: url("../images/order/btnAttach__d.gif") no-repeat scroll 0 0 transparent;
+float:left;}
+
+.attach {width:100%;padding: 8px 0}
+
+.attachPanel{width:92%;margin:0 auto;}
+
+.attachRow {padding:6px 0;font-size: 13px;line-height: 1.3;width:100%;*position:relative;margin-bottom:10px;}
+
+.attachSize{margin-left: 5px;color: #A0A0A0}
+
+.attachIcon a {background: url("../images/order/common.png") no-repeat scroll 0 0 transparent;float:left;width:16px;height:16px;margin-right: 4px}
+
+.attachRight{float:right;*position:absolute;*right:0;*margin-right:20px;width:160px;}
+
+.attachRight a{float:right;background: url("../images/order/btnDelete__b.gif") no-repeat scroll 0 0 transparent;width:16px;height:16px;*position:absolute;}
+
+.fillDelete{width:16px;float:right;}
+/* attach end  */
+
+.FieldRow_0{background-color: #f2f2f2;height:23px;}
+.FieldRow_1{background-color: #dad8d8;height:23px;}
+.FieldRow_0 td{padding:0px 8px;}
+.FieldRow_1 td{padding:0px 8px;}
+
+TR.DialogLine { font-size: 13px; font-weight: none; color: #555555; white-space: nowrap; word-break: keep-all; }
+
+TR.DialogLineHover { font-size: 13px; font-weight: none; color: #ffffff; background-color: #9496ab; cursor: hand; white-space: nowrap; word-break: keep-all; }
+
+#search {margin: 0px}
+
+#search .searchBar {width: 100%;border: 1px solid #0D5F9B;border-collapse: collapse;background-image: url( "../images/order/search_bk.gif" );}
+
+#search .labelImg {width: 5px;padding: 0px 5px 0px 1px;}
+	
+#search td.label {padding: 3px 10px 0px 0px;font-size: 13px;font-weight: bold;text-align: left;}
+
+table.criteria {width: 100%;border: 1px solid black;border-top: 0px;border-collapse: collapse;}
+	
+table.criteria td{padding: 3px 2px 3px 2px;font-size: 12px;font-weight: bold;text-align: left;background: #E1E1E1;}
+
+.buttSearch {height: 22px;width: 50px;font-size: 12px;border: 1px solid #2c59aa;cursor: pointer;background-color: #ffffff;}
+
+.btn_a{
+	padding: 2px 15px;
+	border: 1px solid #bbb;
+	background-color: #f8f8f8;
+	border-radius: 2px;
+	height:23px;
+	margin-right:20px;
+	color: #000000;
+}
+
+.btn_a:hover{
+	background-color: #ebf4fc;
+}
+
+.memoTable{
+	height:18px;
+	border-left: 1px solid #f8f8f8;
+	border-top: 1px solid #f8f8f8;
+	width:800px;
+}
+.memoTable td{
+	height:20px;
+	border-right: 1px solid #f8f8f8;
+	border-bottom: 1px solid #f8f8f8;
+	padding:3px;
+}
+
+.memoTable.regularSign{
+	width:948px;   
+}
+
+.memoTable.regularSign .head_tr{
+	background-color: #999;
+	color:#fff;
+}
+
+.memoTable.regularSign .head_tr td{
+	text-align:center;
+	height:30px
+}
+
+.memoTable.regularSign div{
+	float:left;
+	width:20px;
+}
+
+.memoTable.regularSign .span{
+	width:164px;
+	vertical-align:middle;    
+  	display:table-cell;    
+}
+
+.memoTable.regularSign td{
+	height:40px;
+	vertical-align:middle;
+}
+
+.memoTable.regularSign input[type="radio"]{
+	width:18px;
+}
+
+.regularSign ul{
+	width:680px;
+	margin:0px auto;
+}
+
+.regularSign li{
+	float:left;
+	width:170px;
+}
+
+.regularSign textarea{
+	border:0px;
+	background-color:transparent;
+	width:100%;
+	height:100%
+}
+
+.three-row input[type=text]{width:160px;}
+.three-row input.half{width:74.5px;}
+.three-row select{width:168px;}
+.three-row td{width:196px;}
+.three-row .label {width: 120px;text-align: right;}
+.three-row textarea{width:792px;}
+
+.throw-row input[type=text]{width:165px;}
+.throw-row input.half{width:76px;}
+.throw-row select{width:172px;}
+.throw-row td{width:180px;}
+.throw-row .label {width: 130px;text-align: right;}
+.throw-row textarea{width:794px;}
+
+.four-column input[type=text]{width:130px;}
+.four-column input.half{width:59px;}
+.four-column select{width:138px;}
+.four-column td{width:150px;}
+.four-column .label {width: 80px;text-align: right;}
+
+.four-column-oc input[type=text]{width:161px;}
+.four-column-oc input.half{width:75px;}
+.four-column-oc select{width:146px;}
+.four-column-oc td{width:180px;}
+.four-column-oc .label {width: 78px;text-align: right;}
+.four-column-oc .small_td{width:128px;}
+.four-column-oc .small_td input[type=text]{width:110px;}
+
+
+.detail_col .four-column2 input[type=text]{width:132px;}
+
+.detail_col .four-column2 input.half{width:60px;}
+
+.detail_col .four-column2 select{width:140px;}
+
+.detail_col .four-column2 td{width:145px;}
+
+.detail_col .four-column2 .label {width:85px;text-align: right;}
+
+.detail_col .four-column2 textarea{width:805px;}

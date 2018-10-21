@@ -1,0 +1,43 @@
+.dept{
+		background-image:url("/activitiClient/scripts/jquery/ztree/css/img/zTreeStandard.png");
+		margin-right:2px; 
+		background-position:-110px 0;
+		vertical-align:top; 
+		*vertical-align:middle;
+		width:16px; height:16px;
+		line-height:0; margin:0;
+		background-color:transparent; 
+		background-repeat:no-repeat; 
+		background-attachment: scroll;
+		vertical-align:middle;
+		border:0 none; 
+		cursor: pointer;
+		outline:none;
+		display: inline-block;
+      }
+.leader_ico{
+		background:url(/activitiClient/scripts/sys/ui/css/images/user_manager.png);
+		_background:url(/activitiClient/scripts/sys/ui/css/images/user_manager.gif);
+		border: 0 none;
+		cursor: pointer;
+		display: inline-block;
+		height: 16px;
+		line-height: 0;
+		margin: 0;
+		outline: medium none;
+		vertical-align: middle;
+		width: 16px;
+     }
+.user_ico{
+		background:url(/activitiClient/scripts/sys/ui/css/images/user_male.png);width:16px; height:16px;
+		_background:url(/activitiClient/scripts/sys/ui/css/images/user_male.gif);
+		border: 0 none;
+		cursor: pointer;
+		display: inline-block;
+		height: 16px;
+		line-height: 0;
+		margin: 0;
+		outline: medium none;
+		vertical-align: middle;
+		width: 16px;
+	   }

@@ -1,0 +1,33 @@
+
+#list img{
+	width:200px;
+}
+#top{
+      width: 20px;
+      height: 40px;
+      position: fixed;
+      bottom: 30px;
+      background: red;
+      left: 50%;
+      margin-left: 500px; 
+}
+#top:hover{
+	background: green;
+}
+.upload a {
+    background: url("../images/order/btnAddRow__b.gif") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 16px;
+    width: 16px;
+}
+.attachRight a {
+    background: url("../images/order/btnDelete__b.gif") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 16px;
+    margin-left: 20px;
+    width: 16px;
+}
+.attachRight {
+    float: right;
+}
+.pop .pop_operatePanel {float: right;margin-top: 4px;margin-top: 7px\0;+margin-top: 7px;}

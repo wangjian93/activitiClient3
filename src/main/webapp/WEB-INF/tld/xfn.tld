@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee web-jsptaglibrary_2_1.xsd">
+	<tlib-version>1.0</tlib-version>
+	<short-name>xfn</short-name>
+
+	<function>
+		<name>getLength</name>
+		<function-class>com.ivo.activiticlient.common.util.TagUtils</function-class>
+		<function-signature>java.lang.Integer getLength(java.lang.Object)</function-signature>
+	</function>
+	
+	<function>
+		<name>formatDate</name>
+		<function-class>com.ivo.activiticlient.common.util.TagUtils</function-class>
+		<function-signature>java.lang.String formatDate(java.util.Date,java.lang.String)</function-signature>
+	</function>
+	
+	<function>
+		<name>formatCurrentDate</name>
+		<function-class>com.ivo.activiticlient.common.util.TagUtils</function-class>
+		<function-signature>java.lang.String formatCurrentDate(java.lang.String)</function-signature>
+	</function>
+
+	<function>
+		<name>fmtNum</name>
+		<function-class>com.ivo.activiticlient.common.util.TagUtils</function-class>
+		<function-signature>java.lang.String formatNumberStr(java.lang.String)</function-signature>
+	</function>
+
+</taglib>
